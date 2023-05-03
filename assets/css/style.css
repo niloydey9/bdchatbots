@@ -2897,12 +2897,13 @@ padding-left: 22px;}
         padding-left: 10px; }
 
 .main-content {
-  background-color: #2374e617;
+  background-color: #b3bbff7c;
   padding-left: 310px;
   padding-right: 12px;
-  padding-top: 110px;
+  padding-top: 100px;
   width: 100%;
-  position: relative; }
+  position: relative; 
+}
 
 .main-footer {
   padding: 20px 10px 20px 300px;
@@ -2910,48 +2911,60 @@ padding-left: 22px;}
   color: #98a6ad;
   /*border-top: 1px solid #e3eaef;*/
   display: inline-block;
-  width: 100%; }
-  .main-footer .footer-left {
-    float: left; }
-  .main-footer .footer-right {
-    float: right; }
+  width: 100%; 
+}
+.main-footer .footer-left {
+  float: left; 
+  padding-left: 25px !important;
+}
+.main-footer .footer-right {
+  float: right; 
+}
 
 .simple-footer {
   text-align: center;
   margin-top: 40px;
-  margin-bottom: 40px; }
+  margin-bottom: 40px; 
+}
 
 body:not(.sidebar-mini) .sidebar-style-1 .sidebar-menu li.active a {
   background-color: var(--blue);
-  color: #fff; }
+  color: #fff; 
+}
 
 body:not(.sidebar-mini) .sidebar-style-1 .sidebar-menu li.active ul.dropdown-menu li a {
-  color: #e8ebfd; }
+  color: #e8ebfd; 
+}
   body:not(.sidebar-mini) .sidebar-style-1 .sidebar-menu li.active ul.dropdown-menu li a:hover {
     background-color: var(--blue);
-    color: #fff; }
+    color: #fff; 
+  }
 
 body:not(.sidebar-mini) .sidebar-style-1 .sidebar-menu li.active ul.dropdown-menu li.active a {
-  color: #fff; }
+  color: #fff; 
+}
 
 body:not(.sidebar-mini) .sidebar-style-2 .sidebar-menu > li.active > a {
   padding-left: 16px;
   background-color: transparent;
-  position: relative; }
-  body:not(.sidebar-mini) .sidebar-style-2 .sidebar-menu > li.active > a:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-    height: 25px;
-    width: 4px;
-    background-color: var(--blue); }
+  position: relative; 
+}
+body:not(.sidebar-mini) .sidebar-style-2 .sidebar-menu > li.active > a:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  height: 25px;
+  width: 4px;
+  background-color: var(--blue); 
+}
 
 body:not(.sidebar-mini) .sidebar-style-2 .sidebar-menu li.active ul.dropdown-menu li a {
   padding-left: 61px;
-  background-color: #fff; }
+  background-color: #fff; 
+}
 
 @media (max-width: 1024px) {
   .sidebar-gone-hide {

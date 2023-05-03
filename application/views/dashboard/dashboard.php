@@ -89,26 +89,17 @@ $month_name_array = array(
           <div class="card-stats mb-1">
             <div class="text-center waiting hidden" id="e_loader"><i class="fas fa-spinner fa-spin blue text-center" style="font-size: 40px;"></i></div>
             <div class="card-stats-items ecommerce_month_change_middle_content">
-              <div class="card-stats-item" style="display: flex;justify-content: space-around;align-items: center;">
-                <i class="fa fa-shopping-cart" aria-hidden="true" style="font-size: 18px;color: #448AFF;"></i>
-                <div>
+              <div class="card-stats-item">
                   <div class="card-stats-item-count text-info gradient" id="order_block"><?php echo custom_number_format($total_orders); ?></div>
                   <div class="card-stats-item-label"><?php echo $this->lang->line('Orders'); ?></div>
-                </div>
               </div>
-              <div class="card-stats-item" style="display: flex;justify-content: space-around;align-items: center;">
-                <i class="fa fa-snowflake-o" aria-hidden="true" style="font-size: 18px;color: #FF6787;"></i>
-                <div>
+              <div class="card-stats-item">
                   <div class="card-stats-item-count text-danger gradient" id="recovered_block"><?php echo custom_number_format($summary_recovered_cart); ?></div>
                   <div class="card-stats-item-label"><?php echo $this->lang->line('Pending'); ?></div>
-                </div>
               </div>
-              <div class="card-stats-item" style="display: flex;justify-content: space-around;align-items: center;">
-                <i class="fa fa-snowflake-o" aria-hidden="true" style="font-size: 18px;color: #32ED80;"></i>
-                <div>
+              <div class="card-stats-item">
                   <div class="card-stats-item-count text-success gradient" id="checkout_block"><?php echo custom_number_format($summary_checkout_cart); ?></div>
                   <div class="card-stats-item-label"><?php echo $this->lang->line('Checkout'); ?></div>
-                </div>
               </div>
             </div>
           </div>
