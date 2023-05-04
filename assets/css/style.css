@@ -1535,8 +1535,8 @@ h6 .badge {
 
 /* 3.18 Navbar */
 .navbar {
-  height: 80px;
-  left: 300px;
+  height: 65px;
+  left: 200px;
   right: 0;
   position: absolute;
   z-index: 890;
@@ -2489,7 +2489,7 @@ pre {
   position: fixed;
   top: 0;
   height: 100%;
-  width: 300px;
+  width: 200px;
   /*background-color: rgb(247, 250, 255);*/
   background-color: #FAFDFB;
   z-index: 900;
@@ -2829,11 +2829,17 @@ padding-left: 22px;}
       display: flex;
       align-items: center;
       height: 50px;
-      padding: 0 10px 0 20px;
+      padding: 0 10px 0 0px;
       width: 100%;
       letter-spacing: .3px;
       color: #064663;
       text-decoration: none; }
+      .main-sidebar .sidebar-menu li a:hover{
+        background: #1a202c;
+      }
+      .main-sidebar .sidebar-menu li.active a {
+        background: #1a202c;
+      }
       .main-sidebar .sidebar-menu li a .badge {
         float: right;
         padding: 5px 10px;
@@ -2898,9 +2904,9 @@ padding-left: 22px;}
 
 .main-content {
   background-color: #b3bbff7c;
-  padding-left: 310px;
+  padding-left: 210px;
   padding-right: 12px;
-  padding-top: 100px;
+  padding-top: 85px;
   width: 100%;
   position: relative; 
 }

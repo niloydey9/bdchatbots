@@ -28,7 +28,7 @@
 
             if(!addon_exist($module_id=315,$addon_unique_name="visual_flow_builder") && $single_menu['module_access']=='315') continue;
 
-            if($single_menu['header_text']!='') $menu_html .= '<li class="menu-header">'.$this->lang->line($single_menu['header_text']).'</li>';
+            // if($single_menu['header_text']!='') $menu_html .= '<li class="menu-header">'.$this->lang->line($single_menu['header_text']).'</li>';
 
             $extraText='';
             if($single_menu['add_ons_id']!='0' && $this->is_demo=='1') $extraText=' <label class="label label-warning" style="font-size:9px;padding:4px 3px;">Addon</label>';
