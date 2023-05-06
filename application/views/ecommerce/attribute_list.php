@@ -172,13 +172,11 @@
                 if(response.status == "1")
                 {
                     iziToast.success({title: '',message: response.message,position: 'bottomRight'});
-
                 } else 
                 {
                     iziToast.error({title: '',message: response.message,position: 'bottomRight'});
                 }                
                 $("#add_row_form_modal").modal('hide');
-
             }
         })
 

@@ -25,8 +25,8 @@
 		<link rel="stylesheet" href="<?php echo base_url(); ?>assets/modules/bootstrap-daterangepicker/daterangepicker.css">
 		<link rel="stylesheet" href="<?php echo base_url(); ?>assets/modules/select2/dist/css/select2.min.css">
 		<link rel="stylesheet" href="<?php echo base_url(); ?>assets/modules/izitoast/css/iziToast.min.css">
-        <link rel="stylesheet" href="<?php echo base_url(); ?>assets/modules/owlcarousel2/dist/assets/owl.carousel.min.css">
-        <link rel="stylesheet" href="<?php echo base_url(); ?>assets/modules/owlcarousel2/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/modules/owlcarousel2/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/modules/owlcarousel2/dist/assets/owl.theme.default.min.css">
 
 		<!-- Template CSS -->
 		<!-- <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css"> -->
@@ -91,6 +91,7 @@
             body{
             	font-family: <?php echo $font;?> !important;
             }
+            
             /*.header h4{font-family: Impact;}*/
             h1, h2, h3, h4, h5, h6 {font-weight: 500 !important; }
             .bg-light{background:#f8f9fa!important}
