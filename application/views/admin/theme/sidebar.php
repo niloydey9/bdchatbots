@@ -46,7 +46,11 @@
             if($single_menu['is_external']=='1') $site_url1=""; else $site_url1=site_url(); // if external link then no need to add site_url()
             if($single_menu['is_external']=='1') $parent_newtab=" target='_BLANK'"; else $parent_newtab=''; // if external link then open in new tab
             $color_css = $single_menu['url']!='social_accounts/index' ? "background: -webkit-linear-gradient(270deg,".$color.",".adjustBrightness($color,-0.65).");-webkit-background-clip: text;-webkit-text-fill-color: transparent;" : "color:".$color;
-            $menu_html .= "<li class='".$dropdown_class1."'><a {$parent_newtab} href='".$site_url1.$single_menu['url']."' class='nav-link ".$dropdown_class2."'><i class= '".$single_menu['icon']."' style='".$color_css."'></i> <span>".$this->lang->line($single_menu['name']).$extraText."</span></a>"; 
+            $menu_html .= "<li class='".$dropdown_class1."'>
+            <a {$parent_newtab} href='".$site_url1.$single_menu['url']."' class='nav-link ".$dropdown_class2."'>
+              <i class= '".$single_menu['icon']."' style='".$color_css."'></i> 
+              <span>".getNavigationTitle($this->lang->line($single_menu['name']).$extraText)."</span>
+            </a>"; 
 
             array_push($all_links, $site_url1.$single_menu['url']);  
 
@@ -141,6 +145,7 @@
         }
       ?>
     </ul>
+
 
     <?php
     if($this->session->userdata('license_type') == 'double')
@@ -332,6 +337,9 @@ $custom_links_assoc_str.="}";
 // echo "<pre style='padding-left:300px;'>";
 // print_r($all_links);
 // echo "</pre>"; 
+function getNavigationTitle($title){
+  return $title == 'Comment growth tools' ? "Comment Tools" : $title;
+}
 ?>
 
 

@@ -2828,7 +2828,7 @@ padding-left: 22px;}
       position: relative;
       display: flex;
       align-items: center;
-      height: 50px;
+      height: 40px;
       padding: 0 10px 0 0px;
       width: 100%;
       letter-spacing: .3px;
@@ -3050,7 +3050,7 @@ aside#sidebar-wrapper {
   background: #2d3748 !important;
 }
 .main-sidebar .sidebar-menu li a{
-  color: #fff !important;
+  color: #e5e7eb !important;
 }
 .main-sidebar .sidebar-menu li a span {
   font-weight: 500 !important;
@@ -3146,4 +3146,8 @@ aside#sidebar-wrapper {
 }
 .main-sidebar .sidebar-menu{
   margin: 80px 0 0 0 !important;
+}
+.main-sidebar .sidebar-menu > li i{
+  -webkit-text-fill-color: white !important;
+  background: none !important;
 }
