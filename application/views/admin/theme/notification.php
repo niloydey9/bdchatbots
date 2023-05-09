@@ -1,4 +1,4 @@
-  <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown" style="margin-top: 5px" class="nav-link notification-toggle nav-link-lg mr-2 <?php if(count($annoucement_data)>0) echo 'beep'; ?>"><i class="far fa-bell"></i></a>
+<li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown" style="margin-top: 5px" class="nav-link notification-toggle nav-link-lg mr-2 <?php if(count($annoucement_data)>0) echo 'beep'; ?>"><i class="far fa-bell"></i></a>
   <div class="dropdown-menu dropdown-list dropdown-menu-right">
     <div class="dropdown-header"><?php echo $this->lang->line('Notifications'); ?>
       
